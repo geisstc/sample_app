@@ -9,7 +9,7 @@
 # Ignore other unneeded files.
 database.yml
 doc/
-*.swp
+*.swp                               git remote add origin
 *~
 .project
 .DS_Store
