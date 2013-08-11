@@ -15,9 +15,16 @@ gem 'jquery-rails'
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails','2.13.1'
+  gem 'spork-rails'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess','0.3.6'
+  gem 'guard-rspec','2.5.0'
+  gem 'capybara'
 end
 group :test do
+  gem 'rb-notifu','0.0.4'
+  gem 'win32console','1.3.2'
   gem 'selenium-webdriver'
   gem 'capybara'
 end
