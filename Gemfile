@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -22,6 +23,7 @@ group :assets do
   gem 'childprocess','0.3.6'
   gem 'guard-rspec','2.5.0'
   gem 'capybara'
+  gem 'annotate','2.5.0'
 end
 group :test do
   gem 'rb-notifu','0.0.4'
